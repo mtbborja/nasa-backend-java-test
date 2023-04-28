@@ -1,0 +1,9 @@
+CREATE TABLE public."nasa_data"
+(
+    id serial NOT NULL  PRIMARY KEY,
+	href varchar,
+	center varchar,
+	title varchar,
+	nasa_id varchar,
+	creation_date timestamp
+)
